@@ -2,6 +2,12 @@
 " Author:       xwsoul (xwsoul@gmail.com)
 " Modified:     2011-07-26 14:54
 
+if exists('g:phplint_loaded') || &cp
+    finish
+endif
+
+let g:phplint_loaded = 1
+
 if !exists("phplint_command")
   let phplint_command = 'php -l'
 endif
