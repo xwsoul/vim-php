@@ -1,5 +1,5 @@
 # phplint
-a vim plugin check php errors
+a vim plugin auto check php errors when saving.
 
 ### Setup
 
@@ -12,7 +12,7 @@ Plugin 'xwsoul/phplint'
 
 1. command setting
 ```vim
-let g:phplint_command = '/pathtophp' "default php
+let g:phplint_command = '/pathto/php' "default php
 ```
 
 2. highlight error setting
