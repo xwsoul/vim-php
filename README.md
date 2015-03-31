@@ -5,7 +5,7 @@ a vim plugin auto check php errors when saving.
 
 #### Using Vundle
 ```vim
-Plugin 'xwsoul/phplint'
+Plugin 'xwsoul/vim-php'
 ```
 
 ### Options
